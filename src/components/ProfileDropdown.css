@@ -1,0 +1,112 @@
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 400px;
+}
+
+.profile-btn {
+  background-color: blue;
+  border: 2 px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 10px;
+  margin-right: 30px;
+}
+.btnen {
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+}
+.profile-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1;
+  width: 300px;
+  right: 0;
+  border-radius: 4px;
+}
+
+.profile-dropdown .profile-content {
+  display: block;
+}
+
+.account-details,
+.help-support {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.profile-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.profile-link i {
+  margin-right: 10px;
+}
+
+.profile-link:hover {
+  background-color: #f1f1f1;
+}
+
+.new-badge {
+  background-color: #28a745;
+  color: white;
+  padding: 2px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.support-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.support-item i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.support-item span {
+  font-size: 16px;
+  color: #007bff;
+}
+
+.support-item p {
+  margin: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* ProfileDropdown.css */
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btnn {
+  margin: 10px 0;
+}
